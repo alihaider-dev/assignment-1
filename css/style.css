@@ -5,27 +5,29 @@ body {
 .container {
   width: 80%;
   margin: 0 auto;
+  padding: 50px 0;
 }
 .content {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 h1 {
   font-family: 'Yeseva One', cursive;
   font-size: 40px;
 }
-h1 .yellow {
+.yellow {
   color: #fbb000;
 }
 h2 {
   font-family: 'Yeseva One', cursive;
-  font-size: 40px;
+  font-size: 35px;
 }
 h3,
 h4,
 h5,
-h6,
+h6 {
+  font-family: 'Poppins', sans-serif;
+}
 p {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
@@ -51,4 +53,32 @@ p {
 .header-section .avatar img {
   width: 80%;
   padding-left: 20%;
+}
+
+/* My Service Style */
+.service-section .section-title h2 {
+  text-align: center;
+}
+.service-section .service-item {
+  padding: 10px 30px;
+  border-radius: 25px;
+  min-height: 370px;
+  /* text-align: justify; */
+}
+.service-section .item-1,
+.item-2 {
+  margin-right: 30px;
+}
+.service-section .item-1 {
+  background-color: #ff595910;
+}
+.service-section .item-2 {
+  background-color: #4f9da610;
+}
+.service-section .item-3 {
+  background-color: #4e0f1f10;
+}
+.service-section .service-item img {
+  max-width: 140px;
+  max-height: 140px;
 }
