@@ -36,6 +36,9 @@ p {
 .half-width {
   width: 50%;
 }
+.header-section {
+  background-color: lightgoldenrodyellow;
+}
 .header-section .text h1 {
   border-left: 3px solid;
   border-image: linear-gradient(#4e0f1f, #fbb000) 10;
@@ -89,6 +92,9 @@ p {
 }
 
 /* About Section Style */
+.about-section {
+  background-color: lightgoldenrodyellow;
+}
 .about-section .avatar {
   padding-right: 30px;
 }
