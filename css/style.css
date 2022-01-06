@@ -84,12 +84,6 @@ p {
 }
 
 /* About Section Style */
-.about-section {
-  background-image: url(/images/shapes/shape-1.png);
-  background-repeat: no-repeat;
-  background-size: 200px;
-  background-position: left center;
-}
 .about-section .avatar {
   padding-right: 30px;
 }
@@ -116,6 +110,10 @@ p {
 }
 .who-we-are .text {
   padding-right: 30px;
+}
+.who-we-are .avatar img {
+  border: 5px solid;
+  border-image: linear-gradient(#fbb000, #4e0f1f) 10;
 }
 
 /* Contact Me Section Style */
