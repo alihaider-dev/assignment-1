@@ -40,7 +40,7 @@ p {
   border-image: linear-gradient(#4e0f1f, #fbb000) 10;
   padding-left: 5px;
 }
-.header-section .button-link {
+.button-link {
   background-color: #4e0f1f;
   color: white;
   text-decoration: none;
@@ -63,7 +63,6 @@ p {
   padding: 10px 30px;
   border-radius: 25px;
   min-height: 370px;
-  /* text-align: justify; */
 }
 .service-section .item-1,
 .item-2 {
@@ -81,4 +80,27 @@ p {
 .service-section .service-item img {
   max-width: 140px;
   max-height: 140px;
+}
+
+/* About Section Style */
+.about-section {
+  background-image: url(/images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 250px;
+  background-position: left center;
+}
+.about-section .avatar {
+  padding-right: 30px;
+}
+.about-section .avatar img {
+  width: 100%;
+}
+.about-section .text {
+  width: 100%;
+}
+.about-section .col-1 {
+  width: 40%;
+}
+.about-section .col-3 {
+  width: 60%;
 }
