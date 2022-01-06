@@ -147,3 +147,14 @@ textarea:hover {
 .contact-me .contact-form img {
   width: 80%;
 }
+
+/* Footer Section */
+.footer-section {
+  background-image: linear-gradient(to right, #d06fa5, #f0f6fa);
+}
+.footer-section h3 span {
+  color: #4e0f1f;
+}
+.footer-section .container {
+  padding: 5px 0;
+}
